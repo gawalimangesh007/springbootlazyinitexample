@@ -9,6 +9,13 @@ public class LazyService {
         System.out.println("Lazy Service:: Constructor loaded");
     }
     public String hello() {
-        return "hello team";
+        return "Hi Guys," + System.lineSeparator() +
+                "Hope you all are doing good! " +
+                "This is the response from Google Cloud Platform k8s engine. " +
+                "PM, "  +
+                "AM, "  +
+                "NP, "  +
+                "VA. " +
+                "Thank you!!!";
     }
 }
